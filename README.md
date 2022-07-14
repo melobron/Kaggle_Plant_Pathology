@@ -7,4 +7,4 @@ The main objective of the competition is to develop machine learning-based model
 - Task Category: Multi-Label Classification
 - Model: Pretrained ResNet-50
 - Loss: Multi-Label Soft Margin Loss
-
+- Metric: Mean F1-score
