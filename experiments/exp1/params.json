@@ -1,0 +1,30 @@
+{
+    "gpu_num": 0,
+    "seed": 100,
+    "data_dir": "./plant_dataset",
+    "n_classes": 6,
+    "classes": [
+        "rust",
+        "complex",
+        "healthy",
+        "powdery_mildew",
+        "scab",
+        "frog_eye_leaf_spot"
+    ],
+    "test_size": 0.2,
+    "n_epochs": 50,
+    "batch_size": 64,
+    "lr": 1e-06,
+    "threshold": 0.4,
+    "resize": true,
+    "patch_size": 224,
+    "shift_scale_rotate": true,
+    "rotate": true,
+    "brightness_contrast": true,
+    "rgb_shift": true,
+    "random_shadow": true,
+    "random_fog": true,
+    "gauss_noise": true,
+    "coarse_dropout": true,
+    "normalize": true
+}
